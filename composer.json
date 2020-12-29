@@ -15,6 +15,7 @@
       "psr-4": {
         "Roloffice\\Controller\\": "src/Controller/",
         "Roloffice\\Core\\": "src/Core/",
+        "Roloffice\\Model\\": "src/Model/",
         "Monolog\\": "vendor/monolog/monolog/src/Monolog/"
        }
     }

@@ -22,3 +22,4 @@ Sends and receives data from the model and passes to the view.
 - Add monolog for logging
 - Add routing
 - Add HomeController
+- Add Client API: GET/clients, POST/client, GET/client/{id}
