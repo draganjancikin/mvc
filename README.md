@@ -20,3 +20,4 @@ Sends and receives data from the model and passes to the view.
 - Add Core/Config.php class for load configuration params
 - Setup autoload in composer.json
 - Add monolog for logging
+- Add routing
