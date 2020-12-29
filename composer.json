@@ -14,7 +14,8 @@
     "autoload": {
       "psr-4": {
         "Roloffice\\Controller\\": "src/Controller/",
-        "Roloffice\\Core\\": "src/Core/"
+        "Roloffice\\Core\\": "src/Core/",
+        "Monolog\\": "vendor/monolog/monolog/src/Monolog/"
        }
     }
 }
