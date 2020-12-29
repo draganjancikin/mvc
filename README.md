@@ -21,3 +21,4 @@ Sends and receives data from the model and passes to the view.
 - Setup autoload in composer.json
 - Add monolog for logging
 - Add routing
+- Add HomeController

@@ -6,9 +6,11 @@ use Roloffice\Core\Router;
 use Roloffice\Core\Request;
 use Roloffice\Core\Response;
 
+use Roloffice\Controller\HomeController;
+
 Router::get('/', function () {
-    echo 'Hello World';
-});
+    (new HomeController())->indexAction();
+ });
 
 Router::get('/post/([0-9]*)', function (Request $req, Response $res) {
     $res->toJSON([
@@ -16,6 +18,7 @@ Router::get('/post/([0-9]*)', function (Request $req, Response $res) {
         'status' => 'ok'
     ]);
 });
+
 
 App::run();
 
