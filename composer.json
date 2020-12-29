@@ -8,7 +8,9 @@
             "email": "dragan.jancikin@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "monolog/monolog": "^2.2"
+    },
     "autoload": {
       "psr-4": {
         "Roloffice\\Controller\\": "src/Controller/",
