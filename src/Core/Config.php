@@ -1,8 +1,11 @@
 <?php 
 namespace Roloffice\Core;
 
-class Config
-{
+/**
+ * Class that load configuration param from file config/config.php
+ * @return string
+ */
+class Config {
     private static $config;
 
     public static function get($key, $default = null)
