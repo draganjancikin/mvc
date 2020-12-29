@@ -8,5 +8,11 @@
             "email": "dragan.jancikin@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+      "psr-4": {
+        "Roloffice\\Controller\\": "src/Controller/",
+        "Roloffice\\Core\\": "src/Core/"
+       }
+    }
 }
